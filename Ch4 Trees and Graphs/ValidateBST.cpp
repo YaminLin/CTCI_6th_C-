@@ -1,7 +1,5 @@
-#include "Ch4_TreesAndGraphs.h"
-bool _checkbst(node *root, long left, long right);
-
-bool ValidateBST(node* root) {
+bool ValidateBST(node* root) 
+{
 	if (root == NULL)
 		return true;
 
