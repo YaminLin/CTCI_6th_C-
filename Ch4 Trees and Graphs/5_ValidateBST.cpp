@@ -6,7 +6,8 @@ typedef struct node
 }node;
 
 
-bool ValidateBST(node* root) {
+bool ValidateBST(node* root) 
+{
 	if (root == NULL)
 		return true;
 
