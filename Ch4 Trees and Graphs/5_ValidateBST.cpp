@@ -1,5 +1,10 @@
-#include "Ch4_TreesAndGraphs.h"
-bool _checkbst(node *root, long left, long right);
+typedef struct node
+{
+	int key;
+	node *left;
+	node *right;
+}node;
+
 
 bool ValidateBST(node* root) {
 	if (root == NULL)
